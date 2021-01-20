@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(82, 43, 255);
+    font-family:  'Libre Franklin', sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.main{
+    position: absolute;
+    margin-top:200px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;   
+    font-size: 65px;
+    margin-left: 35px;
+}
+
+.main span{
+    color: red;
+}
+
+.container{
+    position: relative;
+    height:200px;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.container h1{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: white;
+    font-size: 30px;
+}
+
+.container form{
+    background-color: white;
+}
+
+.container input{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    outline: white;
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+
+.submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    flex: auto;     
+}
+
+a{
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h6{
+    color: white;
+    margin: auto;
+    text-align: center;
+}

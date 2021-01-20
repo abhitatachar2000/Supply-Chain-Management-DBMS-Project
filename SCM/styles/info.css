@@ -1,0 +1,175 @@
+*{
+    background-color:  rgb(82, 43, 255);
+}
+
+h1{
+    font-size: large;
+    font-family:'Libre Franklin', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container{
+    width: 800px;
+    height: 100px;
+    color: black;
+    background-color:  rgb(82, 43, 255);
+    position: relative;
+    flex: auto;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.container form{
+    
+    background-color:  rgb(82, 43, 255);
+    color: white;
+}
+
+.container input{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    outline:  rgb(82, 43, 255);
+    background-color:  rgba(50, 3, 104, 0.322);
+    border-radius: 8px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+}
+
+.submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    flex: auto;     
+}
+
+
+table{
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 10px 10px;
+    overflow: hidden;
+    font-size: 10px;
+   
+   }
+
+td , th{
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 13px;
+   }
+
+
+th{
+    background-color: rgba(31, 6, 141, 0.877);
+    color: #fafafa;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+ }
+
+ tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: #eeeeee;
+}
+
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #fff ;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2c0363;
+    padding: 20px;
+    border-radius: 5px;
+    width: 180px;
+    height: 57px;
+    border: none;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .btn:hover{
+    outline:none;
+    flex: auto;
+    color:black;
+    background: #e6d2d2;
+    letter-spacing: 1.5px;
+    font-size: large;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }
+
+.ctnr{
+    width: 500px;
+    height: 60px;
+    background-color:  rgb(82, 43, 255);
+    margin: auto;
+    align-content: center;
+   
+}
+.ords{
+margin: 20px auto;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+.ords h1{
+text-align: center;
+font-size: 40px;
+font-family:'Libre Franklin', sans-serif;
+}
+
+.ords input{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    outline:  rgb(82, 43, 255);
+    background-color:  rgba(50, 3, 104, 0.322);
+    border-radius: 8px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+
+.ords button{
+    background-color: #fff;
+    font-family:'Libre Franklin', sans-serif;
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    outline: none;
+}

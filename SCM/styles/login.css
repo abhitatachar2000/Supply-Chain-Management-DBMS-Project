@@ -1,0 +1,80 @@
+body{
+    background-image: url("./imgs/bg.png");
+}
+
+span{
+    color: red;
+}
+
+.container{
+    position: relative;
+    height:350px;
+    width: 300px;
+    margin:auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family:'Libre Franklin', sans-serif;
+}
+
+span{
+    color: rgb(255, 238, 0);
+}
+
+
+
+.container input{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    outline: white;
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+
+.container select{
+    background-color: white;
+    height: 25px;
+    width: 100px;
+    border-color: white;
+    outline: none;
+}
+
+.container option{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    padding: 20px;
+    border-color: white;
+    outline: none;
+}
+
+.submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    outline: none;
+    flex: auto;     
+}
+
+a{
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h6{
+    color: white;
+    margin: auto;
+    text-align: center;
+}

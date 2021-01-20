@@ -1,0 +1,59 @@
+body{
+    background-image: url("./imgs/bg.png");
+}
+.container{
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin: 300px 175px;
+}
+.container h1{
+    
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.container2{
+    
+    position: absolute;
+    height:auto;
+    width: aut;
+    margin-left: 1100px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 75px;
+
+}
+
+span{
+    color:  rgb(45, 5, 109) ;
+}
+
+.btn{
+    margin: 15px 45px;
+    color: #fff ;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2c0363;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 57px;
+    display: inline;
+    border: none;
+    transition: all 0.4s ease 0s
+}
+
+.btn:hover{
+    outline:none;
+    flex: auto;
+    color:black;
+    background: #e6d2d2;
+    letter-spacing: 1.5px;
+    font-size: large;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}

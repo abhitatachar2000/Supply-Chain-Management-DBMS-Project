@@ -1,0 +1,86 @@
+body{
+    background-image: url("./imgs/bg.png");
+    font-family: 'Cabin', sans-serif;
+}
+.container{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius:10px;
+}
+
+.row {
+  height: inherit;
+}
+
+.column2 {
+  background-color: rgba(165, 165, 165, 0.24);
+}
+
+.column2 h1{
+  font-size:  35px; 
+  font-weight:  600; 
+  color:  #000; 
+  opacity:  .85; 
+}
+
+h4 {
+  font-size:  35px; 
+  font-weight:  600; 
+  color:  #000; 
+  opacity:  .85; 
+}
+
+input{
+  background-color: inherit;
+  outline:none;
+  border: none;
+  
+}
+
+.loginForm {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  transform: translateY(-50%);
+  top: 32%;
+}
+
+button {
+  -webkit-appearance:  none; 
+  width:  auto;
+  min-width:  100px;
+  border-radius:  24px; 
+  text-align:  center; 
+  padding:  15px 40px;
+  margin-top:  5px; 
+  background-color: rgb(108, 52, 212);
+  color:  #fff; 
+  font-size:  14px;
+  margin-left:  auto; 
+  font-weight:  500; 
+  box-shadow:  0px 2px 6px -1px rgba(0,0,0,.13); 
+  border:  none;
+  transition:  all .3s ease; 
+  outline: none; 
+  float: right;
+}
+
+button:hover {
+  transform:  translateY(-3px);
+  box-shadow:  0 2px 6px -1px rgba(rgb(163, 114, 255), .65);
+}
+button:active {
+  transform:  scale(.99);
+}
+
+.padder{
+  padding: 35px;
+}
+
+p{
+  margin-top:15px;
+  font-size: 20px;
+  color: rgb(80, 77, 77);
+}
